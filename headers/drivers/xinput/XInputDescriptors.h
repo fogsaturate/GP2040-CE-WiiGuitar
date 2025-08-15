@@ -123,7 +123,7 @@ static const uint8_t xinput_configuration_descriptor[] =
     0x11,        // bLength
     0x21,        // bDescriptorType (HID)
     0x00, 0x01,  // bcdHID 1.10
-    0x01,        // SUB_TYPE
+    0x07,        // SUB_TYPE (set to GUITAR_ALTERNATE)
     0x25,        // reserved2
     0x81,        // DEVICE_EPADDR_IN
     0x14,        // bMaxDataSizeIn
